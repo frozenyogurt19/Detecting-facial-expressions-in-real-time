@@ -1,6 +1,6 @@
-# 📷🎭 Detecting-facial-expressions-in-real-time :
+# 🎭🎭 Detecting-facial-expressions-in-real-time :
 
-🎭 This project is a  basic  real-time face expression detector using CNN model and OpenCV.
+ This project is a  basic  real-time face expression detector using CNN model and OpenCV.
 -It distingushed between 7 main emotion : Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral
 
 ---
