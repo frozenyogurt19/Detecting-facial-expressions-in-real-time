@@ -3,7 +3,11 @@
 This project is a  basic  real-time face expression detector using CNN model and OpenCV.
 -It distingushed between 7 main emotion : Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral
 
+---
+✨ What makes this project special to me is  learning integarte machine learning ,data scienec with computer vision to create
+and intractive an easy to understand system by almost any age group. 
 
+---
 ## 📍Flow of work:
 1. Webcam captures data
 2. face is detected (using OpenCV)
@@ -47,7 +51,4 @@ python main.ipynb
 OR open jupyter notebook app.ipynb ,  to train and test manually.
 
 ---
-
-💡 What makes this project special to me is intrgarting machine learning and dat scienec with computer vision to create
-an intractive an easy to understand system by almost any age group. 
 
