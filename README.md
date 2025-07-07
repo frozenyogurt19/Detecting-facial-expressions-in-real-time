@@ -4,16 +4,15 @@ This project is a  basic  real-time face expression detector using CNN model and
 -It distingushed between 7 main emotion : Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral
 
 
-📍Flow of work:
+## 📍Flow of work:
 1. Webcam captures data
 2. face is detected (using OpenCV)
 3. CNN model makes predictions ( model trained on open src data : FER2013 )
 4. Predicted emotion is displayed on web cam in resl-time!
    
- <br>
-
+---
 📂 Project Structure
-
+```bash
 emotion_detector/
 │
 ├── app.ipynb                # Complete pipeline: data prep, training, testing, webcam demo
@@ -22,9 +21,10 @@ emotion_detector/
 ├── expression_model.keras   # Trained CNN model (modern format)
 ├── requirements.txt         # All required Python libraries
 ├── README.md                # You're reading it!
+```
 
 
-
+---
 
 ⚠️ NOTE: The raw image dataset (FER2013) is not included due to size. You can download it from Kaggle.
 
@@ -41,8 +41,12 @@ Install dependencies :
 pip install -r requirements.txt
 
 Run the webcam demo :
-python main.py
+python main.ipynb 
 
-OR open : jupyter notebook app.ipynb ,  to train and test manually.
+OR open jupyter notebook app.ipynb ,  to train and test manually.
 
+---
+
+💡 What makes this project special to me is intrgarting machine learning and dat scienec with computer vision to create
+an intractive an easy to understand system by almost any age group. 
 
